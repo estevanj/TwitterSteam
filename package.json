@@ -1,0 +1,14 @@
+{
+  "name": "sendtweets",
+  "version": "1.0.0",
+  "description": "envio automatico de tweets",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "estevan defaz",
+  "license": "ISC",
+  "dependencies": {
+    "csvtojson": "^1.1.7"
+  }
+}

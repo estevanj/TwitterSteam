@@ -1,0 +1,93 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Send Emails</title>
+        <meta name="description" content="Proyecto para el envio masivo de Tweets">
+        <!-- Mobile Specific Metas
+================================================== -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <!-- CSS
+      ================================================== -->
+        <link rel="stylesheet" href="../static/css/zerogrid.css">
+        <link rel="stylesheet" href="../static/css/style.css">
+        <!--  <link rel="stylesheet" href="css/main.css"> -->
+        <link rel="stylesheet" href="../static/css/canvas.css">
+
+    </head>
+    <body>
+        <div class="wrap-body">
+            <header>
+                <div class="wrap-header zerogrid">
+                    <div id="logo"><a href="http://localhost:8080/"><img src="../static/img/logo_fci_grande.png"  style="width: 70px;"/></a></div>
+                    <nav>
+                        <div class="wrap-nav">
+                            <div class="menu">
+                                <ul>
+                                    <li><a href="http://localhost:8080/">Inicio</a></li>
+                                    <li><a href="http://localhost:8080/info">Informacion</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+
+            <!--------------Content--------------->
+            <section id="content">
+                <div class="wrap-content zerogrid">
+                    <form action="/" method="POST">
+                    <div class="row block">
+                        <div id="main-content" class="col-2-3">
+                            <div class="row">
+                                <div class="col-full">
+                                    <div class="wrap-col">
+                                        <article>
+                                            <div class="heading"><h2 class="title"><a href="#">Envio Masivo de Tweets</a></h2></div>
+                                            <div class="content">
+                                                <div class="gui">
+
+                                                    <br>
+                                                    Cargar Archivo: <input type="file" name="file" >
+                                                    <br><br>
+                                                    Ingrese Tweet: <input type="text" name="tweet" style="width:350px;">
+                                                    </br></br>
+
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="sidebar" class="col-1-3">
+                            <div class="wrap-col">
+                                <div class="box">
+                                    <div class="heading"><h4 class="title">Claves de acceso</h4>
+                                      Consumer Key: <input type="text" name="consumer_key"  value="SrIUe15lmBm7fgSRHrp9TsSYE" style="width:250px;">
+                                      <br>
+                                      Consumer Secret: <input type="text" name="consumer_secret" value="9eK0Odz9cNvGOuXteMZt1jWfniTYFmS05HljMiSD0s58a5YmIf" style="width:250px;">
+                                      <br>
+                                      Access Token Key: <input type="text" name="access_token_key" value="1483605390-oSq2H0MHytY4sDzZ9TtFLpjG2p8SBGjPsusT4eQ" style="width:250px;">
+                                      <br>
+                                      Access Token Secret: <input type="text" name="access_token_secret" value="WrUGC4oX1fcFim5F3ImcaEDQlrEHoEjhlxtchw7bTap81" style="width:250px;">
+                                      <br>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <input style="margin-left:30% " type="submit" value="INICIAR">
+                    <button id="bt-save">CANCELAR</button>
+                  </form>
+                </div>
+            </section>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,50 @@
+
+canvas {
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.24), 0 1px 5px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.24), 0 1px 5px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.24), 0 1px 5px rgba(0, 0, 0, 0.05);
+    display: inline-block;
+    cursor: default;
+    background: black;
+    position:relative;
+}
+
+input, select, textarea {
+    margin:0;
+    padding: 6px 5px;
+    outline:none;
+    font-family:inherit;
+    background-color: grey;
+    box-sizing:border-box;
+    cursor: pointer;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+button {
+    color: white;
+    background-color: grey;
+    display: inline-block;
+    padding: 6px 13px;
+    margin-bottom: 0;
+    font-size: 9px;
+    font-weight: normal;
+    text-align: center;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+button:hover, button:active, input:hover {
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.24), 0 1px 5px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.24), 0 1px 5px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.24), 0 1px 5px rgba(0, 0, 0, 0.05);
+    background-color: #666666;
+}
+
+
+.gui {
+    text-align: center;
+}
